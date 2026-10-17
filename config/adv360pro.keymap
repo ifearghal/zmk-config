@@ -18,11 +18,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1          &kp N2            &kp N3       &kp N4          &kp N5  &none                                                                                      &mo 1       &kp N6  &kp N7           &kp N8       &kp N9             &kp N0              &kp MINUS
-&kp TAB    &kp Q           &kp W             &kp E        &kp R           &kp T   &none                                                                                      &kp DELETE  &kp Y   &kp U            &kp I        &kp O              &kp P               &kp BSLH
-&none      &mt LEFT_ALT A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_GUI F  &kp G   &kp DELETE                   &lt 4 ESCAPE  &mo 5         &none  &lt 4 ESCAPE               &none       &kp H   &mt RIGHT_GUI J  &mt RCTRL K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI  &kp SQT
-&kp LSHFT  &kp Z           &kp X             &kp C        &kp V           &kp B                                              &kp ENTER     &none                                         &kp N   &kp M            &kp COMMA    &kp DOT            &kp FSLH            &kp RSHFT
-&kp LCTRL  &none           &kp LEFT_ALT      &none        &none                               &lt 3 BACKSPACE  &lt 2 TAB     &kp DELETE    &none  &kp ENTER     &lt 3 SPACE                      &none            &none        &none              &none               &none
+&none  &kp N1          &kp N2            &kp N3       &kp N4          &kp N5  &none                                                                                   &mo 1       &kp N6  &kp N7           &kp N8       &kp N9             &kp N0              &none
+&none  &kp Q           &kp W             &kp E        &kp R           &kp T   &none                                                                                   &kp DELETE  &kp Y   &kp U            &kp I        &kp O              &kp P               &none
+&none  &mt LEFT_ALT A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_GUI F  &kp G   &none                   &lt 5 ESCAPE  &none         &none    &lt 5 ESCAPE               &none       &kp H   &mt RIGHT_GUI J  &mt RCTRL K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI  &none
+&none  &kp Z           &kp X             &kp C        &kp V           &kp B                                         &kp ENTER     &none                                           &kp N   &kp M            &kp COMMA    &kp DOT            &kp FSLH            &none
+&none  &kp K_UNDO      &kp K_CUT         &kp K_COPY   &kp K_PASTE                    &lt 2 BACKSPACE  &lt 4 TAB     &kp DELETE    &kp DEL  &lt 4 RETURN  &lt 3 SPACE                      &none            &none        &none              &none               &none
             >;
         };
 
@@ -38,11 +38,11 @@
 
         num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans      &trans  &trans  &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans      &kp N7  &kp N8  &kp N9   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans      &kp N4  &kp N5  &kp N6   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans    &trans                          &trans      &kp N1  &kp N2  &kp N3   &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &trans  &kp N0                             &trans  &trans  &kp DOT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &kp N7  &kp N8  &kp N9   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &kp N4  &kp N5  &kp N6   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans    &trans                          &trans  &kp N1  &kp N2  &kp N3   &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &trans  &kp N0                  &trans  &trans  &kp DOT  &trans  &trans
             >;
         };
 
