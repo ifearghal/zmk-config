@@ -18,21 +18,21 @@
 
         default_layer {
             bindings = <
-&none  &kp N1          &kp N2            &kp N3         &kp N4          &kp N5  &none                                                                                   &mo 1       &kp N6  &kp N7           &kp N8       &kp N9             &kp N0              &none
-&none  &kp Q           &kp W             &kp E          &kp R           &kp T   &none                                                                                   &kp DELETE  &kp Y   &kp U            &kp I        &kp O              &kp P               &none
-&none  &mt LEFT_ALT A  &mt LEFT_SHIFT S  &mt LCTRL D    &mt LEFT_GUI F  &kp G   &none                   &lt 5 ESCAPE  &none         &none    &lt 5 ESCAPE               &none       &kp H   &mt RIGHT_GUI J  &mt RCTRL K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI  &none
-&none  &kp Z           &kp X             &kp C          &kp V           &kp B                                         &kp ENTER     &none                                           &kp N   &kp M            &kp COMMA    &kp DOT            &kp FSLH            &none
-&none  &kp LC(Z)       &kp LC(X)         &kp LC(C)      &kp LC(V)                      &lt 2 BACKSPACE  &lt 4 TAB     &kp DELETE    &kp DEL  &lt 4 RETURN  &lt 3 SPACE                      &none            &none        &none              &none               &none
+&none  &kp N1          &kp N2            &kp N3       &kp N4          &kp N5  &none                                                                                   &mo 1       &kp N6  &kp N7           &kp N8       &kp N9             &kp N0              &none
+&none  &kp Q           &kp W             &kp E        &kp R           &kp T   &none                                                                                   &kp DELETE  &kp Y   &kp U            &kp I        &kp O              &kp P               &none
+&none  &mt LEFT_ALT A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_GUI F  &kp G   &none                   &lt 5 ESCAPE  &none         &none    &lt 5 ESCAPE               &none       &kp H   &mt RIGHT_GUI J  &mt RCTRL K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI  &none
+&none  &kp Z           &kp X             &kp C        &kp V           &kp B                                         &kp ENTER     &none                                           &kp N   &kp M            &kp COMMA    &kp DOT            &kp FSLH            &none
+&none  &kp LC(Z)       &kp LC(X)         &kp LC(C)    &kp LC(V)                      &lt 2 BACKSPACE  &lt 4 TAB     &kp DELETE    &kp DEL  &lt 4 RETURN  &lt 3 SPACE                      &none            &none        &none              &none               &none
             >;
         };
 
         mod {
             bindings = <
 &none  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &none                                                                        &trans       &tog 6  &none       &none       &none  &none  &none
-&none  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none         &bootloader                                                                  &bootloader  &none  &none       &none       &none  &none  &none
-&none  &none         &none              &none            &none         &none         &none               &none  &none    &bt BT_CLR  &none                        &none        &none  &none       &none       &none  &none  &none
-&none  &none         &none              &none            &none         &none                                    &none    &none                                                 &none  &none       &none       &none  &none  &none
-&none  &none         &none              &none            &none                                    &none  &none  &none    &none       &bl BL_TOG  &rgb_ug RGB_TOG                      &bl BL_INC  &bl BL_DEC  &none  &none  &none
+&none  &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none         &bootloader                                                                  &bootloader  &none   &none       &none       &none  &none  &none
+&none  &none         &none              &none            &none         &none         &none               &none  &none    &bt BT_CLR  &none                        &none        &none   &none       &none       &none  &none  &none
+&none  &none         &none              &none            &none         &none                                    &none    &none                                                 &none   &none       &none       &none  &none  &none
+&none  &none         &none              &none            &none                                    &none  &none  &none    &none       &bl BL_TOG  &rgb_ug RGB_TOG                       &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
 
@@ -48,11 +48,11 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &trans    &trans     &trans   &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans  &kp HOME  &kp PG_UP  &kp END  &trans     &kp PRINTSCREEN
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans    &trans                          &trans  &trans    &kp PG_DN  &trans   &trans     &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &trans  &trans                  &trans    &trans     &trans   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &trans           &trans    &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans  &kp PRINTSCREEN  &kp HOME  &kp PG_UP  &kp END    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans  &trans          &trans  &kp LEFT         &kp DOWN  &kp UP     &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans    &trans                          &trans           &trans    &kp PG_DN  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans    &trans  &trans  &trans                           &trans    &trans     &trans     &trans  &trans
             >;
         };
 
@@ -78,11 +78,11 @@
 
         mac_mod {
             bindings = <
-&trans  &trans           &trans          &trans        &trans          &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans          &trans        &trans          &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans          &trans        &trans          &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans          &trans        &trans          &trans                  &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)     &kp LG(V)                       &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans                                                    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans          &trans  &trans    &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans                          &trans    &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)                  &trans  &trans  &trans    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
